@@ -63,6 +63,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 16px;
 }
 
 .hero-header {
@@ -76,6 +77,26 @@ a {
     color: #8fa3b0;
 }
 
+button {
+    padding: 16px;
+    background-color: #d13639;
+    border: none;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 128px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    border: none;
+    color: #d13639;
+}
+
 .hero > img {
     width: 854px;
     height: 480px;
@@ -87,6 +108,46 @@ a {
     background-color: #ececec;
 
     flex: 2 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f1923;
+
+    display: flex;
+    justify-content: center;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    flex-wrap: wrap;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.team > img {
+    width: auto;
+    height: 240px;
+}
+
+.team-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f4245;
 }
 
 .quote {
@@ -95,6 +156,32 @@ a {
     background-color: #232629;
 
     flex: 1.5 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    width: 480px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.quote-body {
+    font-size: 36px;
+    color: #8fa3b0;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: end;
 }
 
 .call-to-action {
@@ -103,12 +190,55 @@ a {
     background-color: #ececec;
 
     flex: 1 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 854px;
+    height: 240px;
+    border-radius: 12px;
+    padding: 16px;
+
+    background-color: #232629;
+    
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.call-to-action-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.call-to-action-subheader {
+    font-size: 18px;
+    color: #8fa3b0;
 }
 
 .footer {
     height: 128px;
+    padding: 16px;
 
     background-color: #000000;
+    color: #687077;
+
+    font-size: 18px;
 
     flex: 0 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
