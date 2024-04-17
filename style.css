@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: darkslategray;
     padding: 16px;
 }
 
@@ -85,6 +85,7 @@ a {
 }
 
 .panel {
+    background-color: gray;
     display: flex;
     gap: 16px;
 }
