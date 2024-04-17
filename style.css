@@ -1,105 +1,54 @@
 * {
-    font-family: Arial;
+    box-sizing: content-box;
 }
 
 body {
+    margin: 0px;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkslategray;
-    padding: 16px;
-}
+    background-color: #111111;
+    height: 120px;
 
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-
-    display: flex;
-    gap: 16px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+    flex: 0 0 auto;
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    padding: 16px;
+    background-color: #111111;
+    height: 840px;
+
+    flex: 2 0 auto;
 }
 
-.left {
-    min-width: 480px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
+.information {
+    background-color: #ececec;
+    height: 840px;
 
-.team-panel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    background-color: lightgray;
-    gap: 16px;
-}
-
-.teams {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.team {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    flex: 2 0 auto;
 }
 
 .quote {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
+    background-color: #232629;
+    height: 600px;
+
+    flex: 1.5 0 auto;
 }
 
-.action {
-    display: flex;
-    justify-content: center;
-    padding: 16px;
-    background-color: lightgray;
-}
+.call-to-action {
+    background-color: #ececec;
+    height: 360px;
 
-.panel {
-    background-color: gray;
-    display: flex;
-    gap: 16px;
-}
-
-.left-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    flex: 1 0 auto;
 }
 
 .footer {
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
+    background-color: #000000;
+    height: 120px;
+    
+    flex: 0 0 auto;
 }
